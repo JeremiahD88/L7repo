@@ -1,13 +1,19 @@
 #!/usr/bin/python3
 
 import gpiozero
+import signal
 
 button = gpiozero.Button(20)
-while (1):
-	if button.is_pressed:
-		print('Button is pressed')
-		break
 
+def say_hello():
+	print('Hello')
+
+button.when_pressed = say_hello
+
+
+while(1):
+	my_input = int(input('Bla'))	
+	print('Hejeh')
 
 
 
