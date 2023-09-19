@@ -1,0 +1,1 @@
+& C:/Users/Jerem/Downloads/Wpy64-31140/Python-3.11.4.Amd64/Python.Exe C:/Inbyggd_System_2/L10_Övning.Py
