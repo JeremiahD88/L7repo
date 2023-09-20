@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+f = open('/sys/bus/w1/devices/28-062018a55525', mode = 'r')
+
+temp = int(f.readline())
+
+f.close()
+print(f'The temperature is: {temp/1000}')
